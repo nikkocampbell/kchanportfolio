@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6921e+0,d91c66+50,9b509e+94 */
+background: rgb(246,146,30); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgb(246,146,30) 0%, rgb(217,28,102) 50%, rgb(155,80,158) 94%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgb(246,146,30) 0%,rgb(217,28,102) 50%,rgb(155,80,158) 94%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgb(246,146,30) 0%,rgb(217,28,102) 50%,rgb(155,80,158) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6921e', endColorstr='#9b509e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height:auto;
+}
+
+h1, h2, h3, h4{
+font-family: 'Oswald', sans-serif;
+text-align:center;
+	
+}
+
+li{
+font-family: 'Oswald', sans-serif;
+}
+
+
+p{ 
+font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+#mainContent{
+	background-color:#fff;
+	margin-bottom:	0.625em;
+	padding-bottom:	0.625em;
+	padding-top: 0.625em;
+}
+
+.boxHelper {
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.boxHelper2 {
+	color: #000;
+	background-color: #ff6;
+	text-align: center;
+}
+
+.logotitle {
+	color:#fff;
+	text-align:center;
+	font-size: 1.3em;
+	}
+	
+#bioMe p {
+	text-align: left;
+	}
+	
+#titleLeft {
+	border-radius: 2em;
+}	
+	
+#titleTop {
+	border-bottom:dashed 2px #9b509e;
+	margin-bottom: 10px;
+	
+	}
+#hireButton{
+	margin: 5px;
+	color:	#d644aa;
+font-size:1.5rem;
+	font-family: 'Oswald', sans-serif;
+text-align:center;
+
+}
+#hireButton a{
+	color:	#d644aa;
+	font-size:1.5rem;
+	font-family: 'Oswald', sans-serif;
+text-align:center;
+	}
+	
+#hireButton h2 a:hover{
+color: #ffffff;
+	} 
+		
+#hireButton:hover{
+	color: #ffffff;
+	background: #ff9844;
+	font-family: 'Oswald', sans-serif;
+text-align:center;
+}
+/*Navigation*/
+
+#mainNav {
+	float: center;
+	text-align:center;
+	font-size: 1.4em;
+}
+#mainNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.375em;
+	overflow:hidden;
+	text-align:center;
+position: relative;
+display:inline-block;
+}
+
+#mainNav li {
+	float: left;
+}
+
+#mainNav a {
+	
+display:block;
+color:#fff;
+text-align:center;
+padding: 4px;
+text-decoration:none;
+}
+
+#mainNav a:hover{
+	color: #f6921e;
+	text-decoration:line-through;
+}
+ 
+/* Main Content*/ 
+.homeVid{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.vidinfo p {
+    text-align: left;
+}
+
+.homeVid iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.photo-space{
+padding-bottom:2em;	
+}
+
+.photo-space2{
+	padding-top:2.55em;	
+}
+
+.photo-space3{
+	padding-top: 0.75em;	
+}
+.imgIcons{
+	/*margin-bottom: 0.938em;*/
+	float: center;
+	position:relative;
+	display: inline-block; 
+	 }
+	 
+	
+#resume{
+	background:#ffeaee;	
+	border-top-left-radius: 3em 3em;
+	border-top-right-radius: 3em 3em;
+
+}
+
+#myPrograms{
+	background: #fff5ea ;
+}
+
+#schoolExperience{
+}
+
+#otherList{
+	background: #fff5ea;
+}
+
+#plzHireMe{
+	background: #f9eaff;	
+	text-align:center;
+	border-bottom-left-radius: 3em 3em;
+	border-bottom-right-radius: 3em 3em;
+}
+
+
+/*footer stuff*/
+
+
+#footerCon {
+	background-color: #9b509e;
+	text-align:center;
+	color: #fff;
+	padding-top: 10px
+}
+
+#footerCon ul{
+list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+display:inline-block;
+f}
+	
+#footerCon li{
+	float:left;}
